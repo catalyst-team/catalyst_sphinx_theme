@@ -19,7 +19,7 @@ setup(
         '*.html',
         'static/css/*.css',
         'static/js/*.js',
-        'static/fonts/*.*',
+        'static/fonts/**/*',
         'static/images/*.*',
         'theme_variables.jinja'
     ]},
@@ -30,6 +30,7 @@ setup(
     },
     license= 'MIT License',
     classifiers=[
+        "Programming Language :: Python :: 3",
         "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
         "Intended Audience :: Developers",
@@ -42,5 +43,6 @@ setup(
     ],
     install_requires=[
        'sphinx'
-    ]
+    ],
+    python_requires='>=3.6',
 )
