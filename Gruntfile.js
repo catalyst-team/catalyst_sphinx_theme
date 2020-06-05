@@ -166,7 +166,7 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          src: ['catalyst_sphinx_theme/static/js/*.js', '!catalyst_sphinx_theme/static/js/*.min.js'],
+          src: ['catalyst_sphinx_theme/static/js/*.js', '!catalyst_sphinx_theme/static/js/*.min.js', '!catalyst_sphinx_theme/static/js/*.analytics.js'],
           dest: 'catalyst_sphinx_theme/static/js/',
           rename: function (dst, src) {
             // Use unminified file name for minified file
