@@ -76,6 +76,9 @@
   {%- endblock %}
   {%- block extrahead %} {% endblock %}
 
+  {# Keep google analytics in head#}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167094275-1"></script>
+  <script src="{{ pathto('_static/js/google.analytics.js', 1) }}"></script>
   {# Keep modernizr in head - http://modernizr.com/docs/#installing #}
   <script src="{{ pathto('_static/js/modernizr.min.js', 1) }}"></script>
 

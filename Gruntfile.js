@@ -185,7 +185,7 @@ module.exports = function(grunt) {
       fonts: ["catalyst_sphinx_theme/static/fonts"],
       images: ["catalyst_sphinx_theme/static/images"],
       css: ["catalyst_sphinx_theme/static/css"],
-      js: ["catalyst_sphinx_theme/static/js/*", "!catalyst_sphinx_theme/static/js/modernizr.min.js"]
+      js: ["catalyst_sphinx_theme/static/js/*", "!catalyst_sphinx_theme/static/js/modernizr.min.js", "!catalyst_sphinx_theme/static/js/google.analytics.js"]
     },
 
     watch: {
