@@ -18,6 +18,7 @@ setup(
         'theme.conf',
         '*.html',
         'static/css/*.css',
+        'static/js/*.js',
         'static/js/**/*.js',
         'static/fonts/**/*.*',
         'static/images/*.*',
