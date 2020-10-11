@@ -96,20 +96,20 @@
           <li>
             <div class="ecosystem-dropdown">
               <a id="dropdownMenuButtonEcosystem" data-toggle="ecosystem-dropdown">
-                Catalyst.Ecosystem
+                Ecosystem
               </a>
               <div class="ecosystem-dropdown-menu">
                 <a class="nav-dropdown-item" href="{{ theme_variables.external_urls['alchemy_url'] }}">
-                  <span class=dropdown-title>Catalyst.Alchemy</span>
-                  <p>Experiments monitoring and sharing</p>
+                  <span class=dropdown-title>Alchemy</span>
+                  <p>Experiments logging & visualization</p>
+                </a>
+                <a class="nav-dropdown-item" href="{{ theme_variables.external_urls['catalyst_github'] }}">
+                  <span class=dropdown-title>Catalyst</span>
+                  <p>Accelerated deep learning R&D</p>
                 </a>
                 <a class="nav-dropdown-item" href="{{ theme_variables.external_urls['reaction_github'] }}">
-                  <span class=dropdown-title>Catalyst.Reaction</span>
-                  <p>Convenient DL models serving</p>
-                </a>
-                <a class="nav-dropdown-item" href="{{ theme_variables.external_urls['mlcomp_github'] }}">
-                  <span class=dropdown-title>Catalyst.MLcomp</span>
-                  <p>Supervise and orchestrate your experiments</p>
+                  <span class=dropdown-title>Reaction</span>
+                  <p>Convenient deep learning models serving</p>
                 </a>
               </div>
             </div>
@@ -118,20 +118,28 @@
           <li>
             <div class="projects-dropdown">
               <a id="dropdownMenuButtonProjects" data-toggle="projects-dropdown">
-                Catalyst.Projects
+                Projects
               </a>
               <div class="projects-dropdown-menu">
+                <a class="nav-dropdown-item" href="{{ theme_variables.external_urls['catalyst_codestyle_github'] }}">
+                  <span class=dropdown-title>Codestyle</span>
+                  <p>Joint R&D codestyle</p>
+                </a>
                 <a class="nav-dropdown-item" href="{{ theme_variables.external_urls['catalyst_neuro_github'] }}">
                   <span class=dropdown-title>Catalyst.Neuro</span>
                   <p>Catalyst.Team and TReNDS collaborative project</p>
                 </a>
                 <a class="nav-dropdown-item" href="{{ theme_variables.external_urls['catalyst_classification_github'] }}">
-                  <span class=dropdown-title>Catalyst.Classification</span>
-                  <p>Image classification pipelines with transfer learning</p>
+                  <span class=dropdown-title>Classification</span>
+                  <p>Image classification pipeline with transfer learning</p>
+                </a>
+                <a class="nav-dropdown-item" href="{{ theme_variables.external_urls['catalyst_detection_github'] }}">
+                  <span class=dropdown-title>Detection</span>
+                  <p>Object detection pipeline</p>
                 </a>
                 <a class="nav-dropdown-item" href="{{ theme_variables.external_urls['catalyst_segmentation_github'] }}">
-                  <span class=dropdown-title>Catalyst.Segmentation</span>
-                  <p>Image segmentation pipelines with transfer learning</p>
+                  <span class=dropdown-title>Segmentation</span>
+                  <p>Image semantic segmentation pipeline</p>
                 </a>
                 <a class="nav-dropdown-item" href="{{ theme_variables.external_urls['catalyst_gan_github'] }}">
                   <span class=dropdown-title>Catalyst.GAN</span>
@@ -142,7 +150,7 @@
           </li>
 
           <li>
-            <a href="{{ theme_variables.external_urls['catalyst_github'] }}">Github</a>
+            <a href="{{ theme_variables.external_urls['dlcourse_github'] }}">Deep learning course</a>
           </li>
         </ul>
       </div>
@@ -309,25 +317,27 @@
         <div class="footer-links-col">
           <ul>
             <li class="list-title"><a href="{{ theme_variables.external_urls['catalyst_team_github'] }}">Ecosystem</a></li>
-            <li><a class="nav-dropdown-item" href="{{ theme_variables.external_urls['alchemy_url'] }}">Catalyst.Alchemy</a></li>
-            <li><a class="nav-dropdown-item" href="{{ theme_variables.external_urls['reaction_github'] }}">Catayst.Reaction</a></li>
-            <li><a class="nav-dropdown-item" href="{{ theme_variables.external_urls['mlcomp_github'] }}">Catalyst.MLcomp</a></li>
+            <li><a class="nav-dropdown-item" href="{{ theme_variables.external_urls['alchemy_url'] }}">Alchemy</a></li>
+            <li><a class="nav-dropdown-item" href="{{ theme_variables.external_urls['catalyst_github'] }}">Catalyst</a></li>
+            <li><a class="nav-dropdown-item" href="{{ theme_variables.external_urls['reaction_github'] }}">Reaction</a></li>
           </ul>
         </div>
 
         <div class="footer-links-col">
           <ul>
             <li class="list-title"><a href="{{ theme_variables.external_urls['catalyst_team_github'] }}">Projects</a></li>
+            <li><a class="nav-dropdown-item" href="{{ theme_variables.external_urls['catalyst_codestyle_github'] }}">Codestyle</a></li>
             <li><a class="nav-dropdown-item" href="{{ theme_variables.external_urls['catalyst_neuro_github'] }}">Catalyst.Neuro</a></li>
-            <li><a class="nav-dropdown-item" href="{{ theme_variables.external_urls['catalyst_classification_github'] }}">Catayst.Classification</a></li>
-            <li><a class="nav-dropdown-item" href="{{ theme_variables.external_urls['catalyst_segmentation_github'] }}">Catalyst.Segmentation</a></li>
+            <li><a class="nav-dropdown-item" href="{{ theme_variables.external_urls['catalyst_classification_github'] }}">Classification</a></li>
+            <li><a class="nav-dropdown-item" href="{{ theme_variables.external_urls['catalyst_detection_github'] }}">Detection</a></li>
+            <li><a class="nav-dropdown-item" href="{{ theme_variables.external_urls['catalyst_segmentation_github'] }}">Segmentation</a></li>
             <li><a class="nav-dropdown-item" href="{{ theme_variables.external_urls['catalyst_gan_github'] }}">Catalyst.GAN</a></li>
           </ul>
         </div>
 
         <div class="footer-links-col">
           <ul>
-            <li class="list-title"><a href="{{ theme_variables.external_urls['home'] }}">Support us</a></li>
+            <li class="list-title"><a href="{{ theme_variables.external_urls['home'] }}">Support</a></li>
             <li><a href="{{ theme_variables.external_urls['catalyst_github_issues'] }}" target="_blank">Github Issues</a></li>
             <li><a href="{{ theme_variables.external_urls['contributing'] }}" target="_blank">Contributing</a></li>
             <li><a href="{{ theme_variables.external_urls['patreon'] }}" target="_blank">Patreon</a></li>
