@@ -5,7 +5,7 @@ From https://github.com/catalyst-team/catalyst_sphinx_theme.
 """
 from os import path
 
-__version__ = '1.1.2'
+__version__ = '1.2.0'
 __version_full__ = __version__
 
 
